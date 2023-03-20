@@ -160,16 +160,12 @@ function clearInputs() {
   document.getElementById('phone').value = '';
   document.getElementById('vehiclenumber').value = '';
   document.getElementById('appartmentname').value = '';
-  alert('Booking Successful');
-    setTimeout(function(){alert('');}, 1000);
 
-  window.location.href = 'https://shinesquadteam.github.io/ShineSquad/#booking';
+  window.location.href = 'https://shinesquadteam.github.io/ShineSquad';
   
 }
 
 
-function showAlert() {
-    window.location.href = 'https://shinesquadteam.github.io/ShineSquad/#booking';
-  }
+
   
 
