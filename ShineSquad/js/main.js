@@ -139,7 +139,7 @@ form.addEventListener('submit', (event) => {
   xhr.onload = () => {
     if (xhr.status === 200) {
       // Redirect to the desired website
-      window.location.href = 'https://abhi7847.github.io/WashWizard/';
+      window.location.href = 'https://shinesquadteam.github.io/ShineSquad/#booking';
       // Reset all form inputs
       document.querySelectorAll('input').forEach(input => {
         input.value = '';
@@ -160,12 +160,16 @@ function clearInputs() {
   document.getElementById('phone').value = '';
   document.getElementById('vehiclenumber').value = '';
   document.getElementById('appartmentname').value = '';
-  window.location.href = 'https://abhi7847.github.io/WashWizard/';
+  alert('Booking Successful');
+    setTimeout(function(){alert('');}, 1000);
+
+  window.location.href = 'https://shinesquadteam.github.io/ShineSquad/#booking';
+  
 }
 
 
 function showAlert() {
-    window.location.href = 'https://abhi7847.github.io/WashWizard/';
+    window.location.href = 'https://shinesquadteam.github.io/ShineSquad/#booking';
   }
   
 
