@@ -159,6 +159,7 @@ function clearInputs() {
   document.getElementById('name').value = '';
   document.getElementById('phone').value = '';
   document.getElementById('vehiclenumber').value = '';
+    document.getElementById('vehicletype').value = '';
   document.getElementById('appartmentname').value = '';
 
   window.location.href = 'https://shinesquadteam.github.io/ShineSquad';
